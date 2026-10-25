@@ -76,7 +76,7 @@ export const handler: Handler = async (
   // ── Read API key from server environment ──────────────────────────────────
   const apiKey = process.env.GEMINI_API_KEY?.trim();
   const modelName =
-    (process.env.GEMINI_MODEL?.trim()) || 'gemini-1.5-flash';
+    (process.env.GEMINI_MODEL?.trim()) || 'gemini-3.8-flash';
 
   if (!apiKey) {
     return {
