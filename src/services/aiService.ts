@@ -41,7 +41,7 @@ export class AIService {
   }
 
   /**
-   * Direct call to Gemini 1.5 Flash API with timeout and error protection
+   * Direct call to Gemini API with timeout and error protection
    */
   
 private static async callGemini(
